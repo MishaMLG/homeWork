@@ -152,7 +152,7 @@ function init() {
             address.innerText = newPlacemark.place;
          });
       } else {
-         alert("Остались пустые поля.");
+         alert("Остались не заполненные поля.");
       }
    });
 }
