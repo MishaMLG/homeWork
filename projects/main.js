@@ -45,7 +45,7 @@ function init() {
       return new ymaps.Placemark(coords);
    }
 
-   // Определяем адрес по координатам (обратное геокодирование)
+   // Определяем адрес по координатам
    function getAddress(coords) {
       ymaps.geocode(coords).then(function (res) {
          const firstGeoObject = res.geoObjects.get(0);
