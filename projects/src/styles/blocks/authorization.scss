@@ -1,0 +1,117 @@
+.authorization {
+   background-color: #09101a;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.auth-block {
+   background-color: #17212b;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   min-width: 520px;
+   min-height: 560px;
+   border-radius: 2%;
+}
+
+.authorization__logo-wrap {
+   min-width: 130px;
+   min-height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #242f3d;
+   border-radius: 30%;
+}
+
+// #name {
+//    margin-bottom: 30px;
+//    border: none;
+//    border-bottom: 1px solid black;
+//    background-color: #242f3d;
+//    outline: none;
+//    color: white;
+// }
+
+#nickname {
+   margin-top: 10px;
+   margin-bottom: 20px;
+   border: none;
+   border-bottom: 1px solid #5288c1;
+   background-color: #242f3d;
+   outline: none;
+   color: white;
+}
+
+.authorization-form {
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+}
+
+.authorization__btn {
+   margin-top: 10px;
+   width: 135px;
+   height: 45px;
+   background-color: #5288c1;
+   align-self: center;
+   outline: none;
+   border: none;
+}
+
+.photo-load {
+   display: none;
+   flex-direction: column;
+   min-width: 370px;
+   padding: 15px;
+   background-color: $darkBlue;
+   position: absolute;
+   left: 0;
+   top: 0;
+}
+
+.photo-load__title {
+   font-size: 20px;
+   padding-left: 10px;
+}
+
+.photo-load__close {
+   align-self: flex-end;
+}
+
+.photo-load__main {
+   display: flex;
+   margin-top: 5px;
+   align-items: center;
+}
+
+.photo-load__image-wrap {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   width: 70px;
+   height: 70px;
+   background-color: $blueGray;
+}
+
+.photo-load__about {
+   padding-left: 20px;
+}
+
+.photo-load__status {
+   font-size: 16px;
+   color: #51b3f3;
+}
+
+.photo-load__username {
+   margin: 0;
+   margin-bottom: 5px;
+}
+
+.photo-load__status {
+   margin: 0;
+}

@@ -1,0 +1,15 @@
+$GlobalFontSize: 18px;
+$ContainerWidth: 940px;
+
+//breakpoints
+
+$tablets: 768px;
+$phones: 480px;
+
+$blueGray: #242f3d;
+$darkBlue: #17212b;
+
+@import "layout/normalize.scss";
+@import "layout/base.scss";
+@import "blocks/authorization.scss";
+@import "blocks/main-chat.scss";
