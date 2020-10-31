@@ -1,0 +1,147 @@
+.chat-section {
+   background-color: $darkBlue;
+   display: flex;
+}
+
+.users-sidebar {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   max-width: 33%;
+   min-width: 250px;
+   width: 300px;
+   border-right: 1px solid $darkBlue;
+}
+
+.users-sidebar__main-search {
+   display: inline-block;
+   height: 90px;
+   justify-content: center;
+   align-items: center;
+}
+
+// .main-search__input {
+//    height: 32px;
+//    padding: 5px;
+//    border-radius: 5px;
+//    margin-left: 20px;
+//    background-color: $blueGray;
+//    border: none;
+//    color: white;
+// }
+
+.users-sidebar__main-users {
+   height: 100%;
+   width: 100%;
+}
+
+.chat-section__main {
+   display: inline-block;
+   flex-direction: column;
+   min-width: 100%;
+   min-height: 100%;
+   justify-content: center;
+   background-color: #36393f;
+}
+
+// .main__users-amount {
+//    display: flex;
+//    flex-direction: column;
+//    width: 100%;
+//    height: 90px;
+//    background-color: $blueGray;
+//    margin-bottom: 1px;
+//    justify-content: center;
+//    padding-left: 45px;
+// }
+
+.main__chat {
+   min-width: 100%;
+   height: calc(100vh - 90px);
+   min-height: 680px;
+}
+
+.main__input-block {
+   display: flex;
+   min-width: 100%;
+   background-color: $blueGray;
+   min-height: 90px;
+   margin-top: 1px;
+   align-items: center;
+}
+
+.users-amount__title {
+   margin: 0;
+}
+
+.users-amount__text {
+   margin: 0;
+}
+
+.input-block__say {
+   height: 32px;
+   padding: 5px;
+   border-radius: 5px;
+   margin-left: 20px;
+   background-color: $blueGray;
+   border: none;
+   width: 85%;
+   outline-color: #242f3d;
+   margin-right: 10px;
+   color: white;
+}
+
+.input-block__saybtn {
+   height: 35px;
+   width: 90px;
+   border-radius: 8px;
+   outline: none;
+   background-color: #292b2f;
+   color: white;
+}
+
+.hidden {
+   display: none;
+}
+
+.main-users__user {
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+   padding-left: 15px;
+   padding-top: 15px;
+}
+
+.main-users__user-photo {
+   width: 40px;
+   height: 40px;
+   background-image: url("../img/upload-photo/siluet.jpg");
+   background-size: cover;
+   margin-right: 15px;
+   border-radius: 50%;
+}
+
+.message-item-header {
+   display: flex;
+}
+
+.message-item-header-time {
+   margin-left: 15px;
+   color: #e14760;
+}
+
+.message-item-header-name {
+   color: #d2e15d;
+}
+
+.user-list-photo {
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   background-image: url("../img/upload-photo/siluet.jpg");
+   background-size: cover;
+}
+
+.user-wrap {
+   display: flex;
+}

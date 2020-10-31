@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>XCHAt</title>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <div class="wrapper">
+      <section class="authorization" id="loginWindow">
+         <div class="auth-block">
+            <div class="authorization__logo-wrap">
+               <img src="./img/auth-logo.png" alt="" class="authorization__logo-img">
+            </div>
+            <h2 class="authorization-title">Authorization</h2>
+            <p class="authorization__ask">Введите ваш Nickname для дальнейшей работы</p>
+            <div class="authorization-form">
+               <input type="text" placeholder="Ваш Nickname" name="nickname" id="nickname"
+                  data-role="login-nickname-input">
+               <button href="#" class="authorization__btn" data-role="login-submit"><a href="#" style="color: black"
+                     class="authorization__btn-link">Connect</a></button>
+               <div class="authorization-form-error" data-role="login-error"></div>
+            </div>
+         </div>
+         <div class="photo-load">
+            <span class="photo-load__close">X</span>
+            <h2 class="photo-load__title">Upload photo</h2>
+            <div class="photo-load__main">
+               <div class="photo-load__image-wrap">
+                  <img src="./img/photo-camera.png" alt="" class="photo-load__image">
+               </div>
+               <div class="photo-load__about">
+                  <h3 class="photo-load__username">Name</h3>
+                  <p class="photo-load__status">Online</p>
+               </div>
+            </div>
+         </div>
+         <div class="photo-properties">
+
+         </div>
+      </section>
+      <section class="chat-section" id="mainChat">
+         <div class="users-sidebar">
+            <div class="main-users__user">
+               <div class="main-users__user-photo" data-role="user-photo">
+
+               </div>
+               <div class="main-users__user-name" data-role="user-name"></div>
+            </div>
+            <div class="users-sidebar__main-users" data-role="user-list">
+
+            </div>
+         </div>
+         <div class="chat-section__main">
+            <div class="main__chat" data-role="message-list">
+
+            </div>
+            <div class="main__input-block">
+               <input type="text" class="input-block__say" placeholder="Введите сообщение..." data-role="message-input">
+               <button class="input-block__saybtn" data-role="message-send">Send</button>
+            </div>
+         </div>
+
+
+      </section>
+   </div>
+</body>
+
+</html>
